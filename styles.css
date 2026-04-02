@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: fit-content;
 }
 
 a{
@@ -18,7 +19,8 @@ a{
 .top{
     display: flex;
     height: 10%;
-    width: 100vw;
+    width: 100%;
+    margin: 0;
     background: linear-gradient(
         to bottom,
         rgb(49, 71, 152),
@@ -32,6 +34,7 @@ a{
     justify-content: center;
     position: sticky;
     top: 0;
+    width: 100%;
 }
 
 .container1{
@@ -93,8 +96,8 @@ a{
     align-items: center;
     justify-content: center;
     margin-top: 4.5%;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: Calibri, sans-serif;
     font-size: 20px;
     font-weight: 400;
